@@ -24,7 +24,7 @@ app.use("/api/messages", messageRoutes);
 app.use("/api/users", userRoutes);
 
  app.use(express.static);
-(path.join(path.join(__dirname, "/frontend/dist")))
+(path.join(path.join(_dirname, "/frontend/dist")))
 
  app.get("*", (req, res) => {
  	res.sendFile(path.join(__dirname, "frontend", "dist", "index.html"));
