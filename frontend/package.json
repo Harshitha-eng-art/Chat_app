@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
-    "chat-app-yt": "file:..",
+    "chat-app-pdj3": "file:..",
     "daisyui": "^4.12.10",
     "postcss": "^8.4.41",
     "react": "^18.3.1",
